@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="Rashi-Menu">
+                <a href="#">ראשי</a>
+                <a href="#">אודות</a>
+                <a href="#">מידע מקצועי</a>
+                <a href="#">לפי סוגי טיפולים</a>
+                <a href="#">לפי ערים</a>
+            </nav>
+
+            <div class="menu_container">
+                <div class="menu_ambur"> </div>
+                <div class="menu_ambur"></div>
+                <div class="menu_ambur"> </div>
+            </div>
+            <img id="logomenu" src="../website massage 2/image/logoicon.png" alt="logo menu">
+            <a class="question" href="#">שאלות נפוצות</a>
+            <button class="advertising_text2"> <a href="#">התחברות מטפלים</a></button>
+            <button class="advertising_text"> <a href="#">מטפלים פרסמו כאן?</a></button>
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <img class="pic_ymassage" src="../website massage 2/image/ymassaqe.png" alt="not pic">
+            <p class="text-inline">השרירים כואבים?<br>
+                רוצה טיפול שיקל על הכאבים?<br>
+                שיגיעו אליך או בקליניקה באזור מגורך?</p>
+            <p class="text-inline2">Ymassage<br>
+                    בדיוק המקום בשבילכם.<br></p>
+            <p class="text-inline3"> מוזמנים לבחור ממגוון מטפלים בעיסוי<br>
+                ורפואה משלימה בלחיצת כפתור<br></p>
+                <p class="text-inline-video"> צפו בסרטון תדמית<img id="pic_video"
+                    src="../website massage 2/image/playicon.png"  alt="playicon">
+            </p>
+        </div>
+        <form class="container-form">
+            <input type="text" placeholder="איזה סוג טיפול">
+            <select id="city" name="city">
+                <option value="" disabled selected>בחירת אזור/עיר</option>
+                <option value="תל אביב"> Tel Aviv </option>
+                <option value="באר שבע">Ber Sheva </option>
+                <option value="רמת גן" >Ramat Gan</option>
+                <option value="הוד השרון">Hod Hasharon</option>
+            </select>
+            <label class="label--preference"> העדפה</label>
+            <div class="preference">
+                <input type="radio" id="cometome" name="preference" value="cometome"> <label for="cometome">שיגיעו אלי</label>
+                <input type="radio" id="cometous" name="preference" value="cometous"> <label for="cometous">להגיע לקליניקה</label>
+            </div>
+            <button class="btn--search">חיפוש
+                <img src="../website massage 2/image/icons8-search-24.png"width="12" height="12">
+            </button>
+        </form>
+
+    </main>
+</body>
+
+</html>
